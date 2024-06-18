@@ -5761,11 +5761,11 @@ static bool8 GetBattleEntryEligibility(struct Pokemon *mon)
     u16 species;
     u16* gFrontierBannedSpecies;
     if (gSaveBlock2Ptr->optionsDifficulty == 1)
-        gFrontierBannedSpecies = gFrontierBannedSpeciesNormal;
+        gFrontierBannedSpecies = gFrontierBannedSpeciesEasy;
     if (gSaveBlock2Ptr->optionsDifficulty == 0)
         gFrontierBannedSpecies = gFrontierBannedSpeciesEasy;
     if (gSaveBlock2Ptr->optionsDifficulty == 2)
-        gFrontierBannedSpecies = gFrontierBannedSpeciesHard;
+        gFrontierBannedSpecies = gFrontierBannedSpeciesEasy;
 
     if (GetMonData(mon, MON_DATA_IS_EGG)
         || GetMonData(mon, MON_DATA_LEVEL) > GetBattleEntryLevelCap()
