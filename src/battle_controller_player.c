@@ -1722,7 +1722,7 @@ u8 TypeEffectiveness(u8 targetId)
     u16 move;
 
     if (gSaveBlock2Ptr->optionTypeEffective == 1)
-        return 10;
+        {return 10;}
 
     struct ChooseMoveStruct *moveInfo = (struct ChooseMoveStruct *)(&gBattleBufferA[gActiveBattler][4]);
     move = moveInfo->moves[gMoveSelectionCursor[gActiveBattler]];

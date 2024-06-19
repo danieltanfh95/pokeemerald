@@ -4364,16 +4364,17 @@ bool16 TryChangeDeoxysForm(void)
                 break;
             default:
                 gSpecialVar_Result = FALSE;
-                return;
+                return 0;
         }
 
         SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPECIES, &targetSpecies);
         CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
         gSpecialVar_Result = TRUE;
-        return;
+        return 1;
     }
 
     gSpecialVar_Result = FALSE;
+    return 0;
 }
 
 // Sets the HP EVs of the Pokémon in gSpecialVar_0x8004 according to the current value of var 0x8000 
