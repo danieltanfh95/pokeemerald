@@ -1138,7 +1138,7 @@ static void TryUpdateGymLeaderRematchFromWild(void)
 
 static void TryUpdateGymLeaderRematchFromTrainer(void)
 {
-    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 5 == 0)
+    if (GetGameStat(GAME_STAT_TRAINER_BATTLES) % 2 == 0)
         UpdateGymLeaderRematch();
 }
 
