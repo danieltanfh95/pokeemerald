@@ -11843,6 +11843,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
+
     [SPECIES_ARCEUS] =
     {
         .baseHP        = 120,
@@ -11869,6 +11870,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_BONSLY] =
     {
         .baseHP        = 50,
@@ -11897,6 +11899,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
+
     [SPECIES_BUDEW] =
     {
         .baseHP        = 40,
@@ -12041,6 +12044,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_RED,
         .noFlip = TRUE,
     },
+
     [SPECIES_DUSKNOIR] =
     {
         .baseHP        = 45,
@@ -12069,6 +12073,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
+
     [SPECIES_ELECTIVIRE] =
     {
         .baseHP        = 75,
@@ -12097,6 +12102,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
+
     [SPECIES_FROSLASS] =
     {
         .baseHP        = 70,
@@ -12125,6 +12131,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_GALLADE] =
     {
         .baseHP        = 68,
@@ -12153,6 +12160,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_GLACEON] =
     {
         .baseHP        = 65,
@@ -12181,6 +12189,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
+
     [SPECIES_GLISCOR] =
     {
         .baseHP        = 75,
@@ -12209,6 +12218,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
+
     [SPECIES_HAPPINY] =
     {
         .baseHP        = 100,
@@ -12238,6 +12248,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .safariZoneFleeRate = 8,
         .noFlip = FALSE,
     },
+
     [SPECIES_HONCHKROW] =
     {
         .baseHP        = 100,
@@ -12266,6 +12277,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
+
     [SPECIES_LEAFEON] =
     {
         .baseHP        = 65,
@@ -12352,6 +12364,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_RED,
         .noFlip = TRUE,
     },
+
     [SPECIES_MAGNEZONE] =
     {
         .baseHP        = 70,
@@ -12380,6 +12393,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
+
     [SPECIES_MAMOSWINE] =
     {
         .baseHP        = 110,
@@ -12408,6 +12422,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
+
     [SPECIES_MANTYKE] =
     {
         .baseHP        = 45,
@@ -12465,6 +12480,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
+
     [SPECIES_MIME_JR] = //modified
     {
         .baseHP        = 20,
@@ -12494,6 +12510,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
     },
+
     [SPECIES_MUNCHLAX] =
     {
         .baseHP        = 135,
@@ -12552,6 +12569,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
+
     [SPECIES_PROBOPASS] =
     {
         .baseHP        = 60,
@@ -12580,6 +12598,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
+
     [SPECIES_REGIELEKI] =
     {
         .baseHP        = 80,
@@ -12637,6 +12656,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
+
     [SPECIES_REGIGIGAS] =
     {
         .baseHP        = 110,
@@ -12665,6 +12685,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_RHYPERIOR] =
     {
         .baseHP        = 115,
@@ -12693,6 +12714,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
+
     [SPECIES_ROSERADE] = //modified
     {
         .baseHP        = 60,
@@ -12722,6 +12744,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = TRUE,
     },
+
     [SPECIES_SYLVEON] =
     {
         .baseHP        = 95,
@@ -12750,6 +12773,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = TRUE,
     },
+
     [SPECIES_TANGROWTH] =
     {
         .baseHP        = 100,
@@ -12779,6 +12803,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
+
     [SPECIES_TOGEKISS] = //modified
     {
         .baseHP        = 85,
@@ -12808,6 +12833,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = TRUE,
     },
+
     [SPECIES_WEAVILE] =
     {
         .baseHP        = 70,
@@ -12836,6 +12862,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
+
     [SPECIES_YANMEGA] =
     {
         .baseHP        = 86,
@@ -12864,6 +12891,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
+
     [SPECIES_ANNIHILAPE] =
     {
         .baseHP        = 110,
@@ -12893,6 +12921,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
+
     [SPECIES_FARIGIRAF] =
     {
         .baseHP        = 120,
@@ -12922,6 +12951,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
+
     [SPECIES_DUDUNSPARCE] =
     {
         .baseHP        = 125,
@@ -12951,6 +12981,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE1] =
     {
         .baseHP        = 120,
@@ -12977,6 +13008,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE2] =
     {
         .baseHP        = 120,
@@ -13003,6 +13035,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE3] =
     {
         .baseHP        = 120,
@@ -13029,6 +13062,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE4] =
     {
         .baseHP        = 120,
@@ -13055,6 +13089,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE5] =
     {
         .baseHP        = 120,
@@ -13081,6 +13116,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE6] =
     {
         .baseHP        = 120,
@@ -13107,6 +13143,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE7] =
     {
         .baseHP        = 120,
@@ -13133,6 +13170,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE8] =
     {
         .baseHP        = 120,
@@ -13159,6 +13197,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE9] =
     {
         .baseHP        = 120,
@@ -13185,6 +13224,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
+
     [SPECIES_UNUSED_SPACE10] =
     {
         .baseHP        = 120,
